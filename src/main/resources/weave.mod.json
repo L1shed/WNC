@@ -1,0 +1,15 @@
+{
+  "mixinConfigs": [
+  ],
+  "entrypoints": [
+    "org.example.Client"
+  ],
+  "hooks": [
+  ],
+  "about": {
+    "name": "WeaveClientTemplate",
+    "version": "1.0.0",
+    "author": "exejar",
+    "description": "A Client Template for Weave"
+  }
+}
