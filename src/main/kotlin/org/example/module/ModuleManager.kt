@@ -1,4 +1,4 @@
-package module
+package org.example.module
 
 object ModuleManager {
     var moduleMap: HashMap<String, Module> = hashMapOf(

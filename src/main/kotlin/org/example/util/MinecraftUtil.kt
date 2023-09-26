@@ -1,4 +1,4 @@
-package util
+package org.example.util
 
 import net.minecraft.client.Minecraft
 import net.minecraft.util.ChatComponentText

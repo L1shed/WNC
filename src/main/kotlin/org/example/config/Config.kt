@@ -1,4 +1,4 @@
-package config
+package org.example.config
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -7,13 +7,13 @@ import kotlinx.serialization.json.decodeFromStream
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
 import kotlinx.serialization.modules.subclass
-import module.Module
-import module.ModuleManager
-import setting.CheckboxSetting
-import setting.DoubleSliderSetting
-import setting.Setting
-import setting.SliderSetting
-import util.addChatMessage
+import org.example.module.Module
+import org.example.module.ModuleManager
+import org.example.setting.CheckboxSetting
+import org.example.setting.DoubleSliderSetting
+import org.example.setting.Setting
+import org.example.setting.SliderSetting
+import org.example.util.addChatMessage
 import java.io.File
 
 class Config(

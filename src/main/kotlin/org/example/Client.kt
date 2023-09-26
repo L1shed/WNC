@@ -1,3 +1,5 @@
+package org.example
+
 import net.weavemc.loader.api.ModInitializer
 import net.weavemc.loader.api.event.EventBus
 import net.weavemc.loader.api.event.StartGameEvent

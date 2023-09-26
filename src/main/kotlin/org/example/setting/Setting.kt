@@ -1,4 +1,4 @@
-package setting
+package org.example.setting
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

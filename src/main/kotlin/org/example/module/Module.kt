@@ -1,8 +1,8 @@
-package module
+package org.example.module
 
 import kotlinx.serialization.Serializable
 import net.weavemc.loader.api.event.EventBus
-import setting.Setting
+import org.example.setting.Setting
 
 @Serializable
 open class Module(
