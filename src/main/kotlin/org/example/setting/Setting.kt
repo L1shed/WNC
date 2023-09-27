@@ -20,26 +20,28 @@ data class SliderSetting(
     override val subSettings: Array<Setting>,
     var value: Double,
     val minValue: Double,
-    val maxValue: Double
+    val maxValue: Double,
+    val increaseBy: Double
 ): Setting()
 
 @Serializable
 @SerialName("double-slider")
-class DoubleSliderSetting(
+data class DoubleSliderSetting(
     override val name: String,
     override val description: String,
     override val subSettings: Array<Setting>,
     var lowValue: Double,
     var highValue: Double,
     val minValue: Double,
-    val maxValue: Double
+    val maxValue: Double,
+    val increaseBy: Double
 ): Setting() {
     fun getRandom(): Double = Random.nextDouble(minValue, maxValue)
 }
 
 @Serializable
 @SerialName("checkbox")
-class CheckboxSetting(
+data class CheckboxSetting(
     override val name: String,
     override val description: String,
     override val subSettings: Array<Setting>,
@@ -49,4 +51,27 @@ class CheckboxSetting(
     fun toggle() {
         enabled = !enabled
     }
+}
+
+/**
+ * @param modes An array of String pairs, where the first element is the entry name, and the second is the entry element
+ */
+@Serializable
+@SerialName("mode-select")
+data class ModeSelectSetting(
+    override val name: String,
+    override val description: String,
+    override val subSettings: Array<Setting>,
+    var selected: ModeEntry,
+    val modes: Array<Pair<String, ModeEntry>>
+): Setting()
+
+@Serializable
+data class ModeEntry(
+    val name: String,
+    val description: String,
+    val additionalSettings: Array<Setting> = emptyArray()
+) {
+    override fun equals(other: Any?): Boolean =
+        (other is ModeEntry && other.name == this.name && other.description == this.description)
 }
