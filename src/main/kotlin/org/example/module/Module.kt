@@ -21,11 +21,11 @@ open class Module(
             onDisable()
     }
 
-    fun onEnable() {
+    open fun onEnable() {
         EventBus.subscribe(this)
     }
 
-    fun onDisable() {
+    open fun onDisable() {
         EventBus.unsubscribe(this)
     }
 
