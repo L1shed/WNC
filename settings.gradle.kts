@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Nemesis Client"
+rootProject.name = "NemesisClient"
