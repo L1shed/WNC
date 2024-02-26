@@ -1,4 +1,4 @@
-package org.example.config
+package me.lished.config
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
@@ -7,13 +7,13 @@ import kotlinx.serialization.json.decodeFromStream
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
 import kotlinx.serialization.modules.subclass
-import org.example.module.Module
-import org.example.module.ModuleManager
-import org.example.setting.CheckboxSetting
-import org.example.setting.DoubleSliderSetting
-import org.example.setting.Setting
-import org.example.setting.SliderSetting
-import org.example.util.addChatMessage
+import me.lished.module.Module
+import me.lished.module.ModuleManager
+import me.lished.setting.CheckboxSetting
+import me.lished.setting.DoubleSliderSetting
+import me.lished.setting.Setting
+import me.lished.setting.SliderSetting
+import me.lished.util.addChatMessage
 import java.io.File
 
 class Config(

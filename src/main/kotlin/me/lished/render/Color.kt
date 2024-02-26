@@ -1,6 +1,6 @@
-package org.example.render
+package me.lished.render
 
-import org.example.util.addChatMessage
+import me.lished.util.addChatMessage
 import kotlin.math.sin
 
 data class Color(

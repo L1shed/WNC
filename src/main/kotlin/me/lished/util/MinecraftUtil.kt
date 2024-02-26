@@ -1,4 +1,4 @@
-package org.example.util
+package me.lished.util
 
 import net.minecraft.client.Minecraft
 import net.minecraft.util.ChatComponentText

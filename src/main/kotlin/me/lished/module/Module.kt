@@ -1,8 +1,8 @@
-package org.example.module
+package me.lished.module
 
 import kotlinx.serialization.Serializable
 import net.weavemc.loader.api.event.EventBus
-import org.example.setting.Setting
+import me.lished.setting.Setting
 
 @Serializable
 open class Module(

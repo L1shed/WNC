@@ -1,4 +1,4 @@
-package org.example.setting
+package me.lished.setting
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable

@@ -1,8 +1,9 @@
-package org.example.module.impl
+package me.lished.module.impl
 
 import net.weavemc.loader.api.event.SubscribeEvent
 import net.weavemc.loader.api.event.TickEvent
-import org.example.module.Module
+import me.lished.module.Module
+import me.lished.setting.*
 import org.example.setting.*
 import org.lwjgl.input.Keyboard
 

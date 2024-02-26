@@ -1,4 +1,4 @@
-package org.example.module
+package me.lished.module
 
 import net.weavemc.loader.api.event.KeyboardEvent
 import net.weavemc.loader.api.event.SubscribeEvent

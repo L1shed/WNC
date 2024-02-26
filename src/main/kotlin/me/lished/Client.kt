@@ -1,4 +1,4 @@
-package org.example
+package me.lished
 
 import net.weavemc.loader.api.ModInitializer
 import net.weavemc.loader.api.event.EventBus

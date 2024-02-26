@@ -2,7 +2,7 @@
   "mixinConfigs": [
   ],
   "entrypoints": [
-    "org.example.Client"
+    "me.lished.Client"
   ],
   "hooks": [
   ],
