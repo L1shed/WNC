@@ -4,7 +4,6 @@ import net.weavemc.loader.api.event.SubscribeEvent
 import net.weavemc.loader.api.event.TickEvent
 import me.lished.module.Module
 import me.lished.setting.*
-import org.example.setting.*
 import org.lwjgl.input.Keyboard
 
 class KillAura(

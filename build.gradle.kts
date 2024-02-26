@@ -2,7 +2,7 @@ plugins {
     kotlin("jvm") version "1.9.0"
     kotlin("plugin.serialization") version "1.8.10"
     application
-    id("com.github.weave-mc.weave-gradle") version "bcf6ab0279"
+    id("com.github.weave-mc.weave-gradle") version "master"
 }
 
 group = "me.lished"
@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.weave-mc:weave-loader:b40f2ae2f7")
+    implementation("com.github.weave-mc:weave-loader:master")
     implementation("org.java-websocket:Java-WebSocket:1.5.4")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
 }
