@@ -5,7 +5,7 @@ plugins {
     id("com.github.weave-mc.weave-gradle") version "bcf6ab0279"
 }
 
-group = "org.example"
+group = "me.lished"
 version = "1.0"
 
 repositories {

@@ -5,4 +5,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "WeaveClientTemplate"
+rootProject.name = "Nemesis Client"
