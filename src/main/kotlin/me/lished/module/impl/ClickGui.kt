@@ -17,10 +17,8 @@ class ClickGui(
     )
 ) {
     override fun onEnable() {
-        if (cGui == null) {
-            cGui = CGui();
-        }
-        mc.displayGuiScreen(cGui);
+        if (cGui == null) cGui = CGui()
+        mc.displayGuiScreen(cGui)
         enabled = false
         super.onEnable()
     }
