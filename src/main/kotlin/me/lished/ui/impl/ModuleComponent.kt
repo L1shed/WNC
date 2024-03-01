@@ -12,7 +12,7 @@ class ModuleComponent(private val module: Module, x: Int, y: Int, width: Int, he
         Minecraft.getMinecraft().fontRendererObj.drawString(
             module.name,
             x + 6,
-            (y + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT.toFloat() / 2 + 4) as Int,
+            (y + Minecraft.getMinecraft().fontRendererObj.FONT_HEIGHT / 2 + 4),
             if (module.enabled) -0xb0b1 else -1
         )
     }
