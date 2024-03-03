@@ -3,7 +3,7 @@ package me.lished.util
 import net.minecraft.client.Minecraft
 import net.minecraft.util.ChatComponentText
 
-val mc = Minecraft.getMinecraft()
+val mc: Minecraft = Minecraft.getMinecraft()
 
 /**
  * Adds a chat message to the client's chat box

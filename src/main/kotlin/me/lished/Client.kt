@@ -1,5 +1,6 @@
 package me.lished
 
+import me.lished.util.addChatMessage
 import net.weavemc.loader.api.ModInitializer
 import net.weavemc.loader.api.event.EventBus
 import net.weavemc.loader.api.event.StartGameEvent
@@ -23,5 +24,7 @@ class Client: ModInitializer {
          *
          * It is safe to instantiate classes that reference Minecraft here
          */
+
+        addChatMessage("INITIALIZED")
     }
 }

@@ -4,10 +4,6 @@ import me.lished.module.ModuleManager.moduleMap
 import me.lished.ui.impl.ModuleComponent
 import net.minecraft.client.gui.GuiScreen
 
-/**
- * @author sassan
- * 18.11.2023, 2023
- */
 class CGui : GuiScreen() {
     private val x: Int
     private val y: Int
@@ -16,12 +12,12 @@ class CGui : GuiScreen() {
     private val moduleComponents: MutableList<ModuleComponent> = ArrayList<ModuleComponent>()
 
     init {
-        this.width = 450
-        this.height = 300
-        this.x = 50
-        this.y = 50
+        width = 450
+        height = 300
+        x = 50
+        y = 50
 
-        this.shit()
+        shit()
     }
 
     override fun drawScreen(mouseX: Int, mouseY: Int, partialTicks: Float) {

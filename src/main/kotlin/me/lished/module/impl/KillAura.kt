@@ -4,6 +4,7 @@ import net.weavemc.loader.api.event.SubscribeEvent
 import net.weavemc.loader.api.event.TickEvent
 import me.lished.module.Module
 import me.lished.setting.*
+import me.lished.util.addChatMessage
 import org.lwjgl.input.Keyboard
 
 class KillAura(
@@ -35,7 +36,7 @@ class KillAura(
 ): Module(
     "KillAura",
     "Automatically attacks nearby entities",
-    Keyboard.KEY_NONE,
+    Keyboard.KEY_R,
     arrayOf(
         mode,
         aps,
@@ -46,6 +47,7 @@ class KillAura(
 ) {
     @SubscribeEvent
     fun onTick(event: TickEvent.Post) {
+        addChatMessage("obb")
         when (mode.selected) {
             blatantMode -> {
                 // blatant logic
