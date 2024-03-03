@@ -16,19 +16,19 @@ class KillAura(
             silentMode.name to silentMode
         )
     ),
-    private val aps: DoubleSliderSetting = DoubleSliderSetting("APS", "Attacks per second", emptyArray(),
+    aps: DoubleSliderSetting = DoubleSliderSetting("APS", "Attacks per second", emptyArray(),
         4.0, 20.0, 4.0, 20.0, 0.1
     ),
-    private val range: SliderSetting = SliderSetting("Range", "Range in blocks for attacking", emptyArray(),
+    range: SliderSetting = SliderSetting("Range", "Range in blocks for attacking", emptyArray(),
         1.0, 1.0, 6.0, 0.1
     ),
-    private val smoothing: SliderSetting = SliderSetting("Smoothing", "Amount of smoothing for rotations", emptyArray(),
+    smoothing: SliderSetting = SliderSetting("Smoothing", "Amount of smoothing for rotations", emptyArray(),
         0.0, 0.0, 10.0, 0.1
     ),
-    private val switchInterval: SliderSetting = SliderSetting("Interval", "Interval at which targets will be switched in milliseconds",
+    switchInterval: SliderSetting = SliderSetting("Interval", "Interval at which targets will be switched in milliseconds",
         emptyArray(), 0.0, 0.0, 1000.0, 100.0
     ),
-    private val switch: CheckboxSetting = CheckboxSetting("Switch", "Switch targets at a set rate",
+    switch: CheckboxSetting = CheckboxSetting("Switch", "Switch targets at a set rate",
         arrayOf(
             switchInterval
         )
