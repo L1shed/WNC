@@ -13,7 +13,7 @@ class LeftClicker(
     ),
 ): Module(
     "LeftClicker",
-    "Automatically clicks",
+    "Automatically clicks for you",
     Keyboard.KEY_NONE,
     arrayOf(
         cps
