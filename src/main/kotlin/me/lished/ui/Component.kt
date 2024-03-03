@@ -15,7 +15,7 @@ abstract class Component(
         this.y = y
     }
 
-    // pasted from my client
+    // pasted from sassan's client
     fun isMouseOver(x: Int, y: Int): Boolean {
         return ((x > this.x)
                 && (x < (this.x + width))
