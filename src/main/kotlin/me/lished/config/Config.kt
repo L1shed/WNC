@@ -1,5 +1,6 @@
 package me.lished.config
 
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.encodeToString
@@ -50,6 +51,7 @@ class Config(
     /**
      * Loads the configuration file
      */
+    @OptIn(ExperimentalSerializationApi::class)
     fun load() {
         val file = File("$name.config")
 
