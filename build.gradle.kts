@@ -7,6 +7,7 @@ plugins {
 
 group = "me.lished"
 version = "1.0"
+buildDir = File("C:/Users/Sentinel/.weave/mods")
 
 repositories {
     mavenCentral()
@@ -27,3 +28,4 @@ minecraft.version("1.8.9")
 kotlin {
     jvmToolchain(8)
 }
+
